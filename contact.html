@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#081b3a">
+  <meta name="description" content="Start a conversation with Papustivity Technologies about business process automation.">
+  <meta property="og:title" content="Contact | Papustivity Technologies">
+  <meta property="og:description" content="Start a conversation with Papustivity Technologies about business process automation.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/papustivity-logo.png">
+  <title>Contact | Papustivity Technologies</title>
+  <link rel="icon" type="image/png" href="images/papustivity-logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="contact-page">
+
+<header class="site-header" id="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Papustivity Technologies home">
+      <img src="images/papustivity-logo.png" alt="Papustivity Technologies logo">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="about.html" data-nav="about">About</a>
+      <a href="solutions.html" data-nav="solutions">Solutions</a>
+      <a class="nav-cta" href="contact.html">Get Started <span>→</span></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero contact-hero">
+    <div class="container narrow">
+      <span class="eyebrow"><span class="eyebrow-dot"></span> GET IN TOUCH</span>
+      <h1>Let's automate <span>your business.</span></h1>
+      <p>Tell us what you're trying to improve. We'll help you identify the right approach.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="section-kicker">START A CONVERSATION</span>
+        <h2>Tell us about the process.</h2>
+        <p>Whether you are starting from scratch, already using Zoho or trying to connect systems that don't talk to each other, we'd like to understand what you need.</p>
+
+        <div class="contact-detail">
+          <span class="detail-icon">⌖</span>
+          <div><small>Office</small><strong>No. 26, Adeshiyan Street,<br>Ilupeju, Lagos.</strong></div>
+        </div>
+        <div class="contact-detail">
+          <span class="detail-icon">↗</span>
+          <div><small>Phone</small><a href="tel:07062631588">07062631588</a></div>
+        </div>
+        <div class="contact-detail">
+          <span class="detail-icon">@</span>
+          <div><small>Email</small><a href="mailto:Info@papustivitytechnologies.com">Info@papustivitytechnologies.com</a></div>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <form id="contact-form" action="https://formspree.io/f/mzepldge" method="POST">
+          <input type="hidden" name="subject" value="Papustivity Website Enquiry">
+          <div class="form-row">
+            <div class="form-field"><label for="name">Name *</label><input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name"></div>
+            <div class="form-field"><label for="company">Company</label><input id="company" name="company" type="text" autocomplete="organization" placeholder="Company name"></div>
+          </div>
+          <div class="form-row">
+            <div class="form-field"><label for="email">Email *</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@company.com"></div>
+            <div class="form-field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Phone number"></div>
+          </div>
+          <div class="form-field"><label for="interest">What can we help with? *</label>
+            <select id="interest" name="interest" required>
+              <option value="" selected disabled>Select a solution</option>
+              <option>Business Process Automation</option>
+              <option>Zoho Implementation &amp; Optimisation</option>
+              <option>CRM &amp; Sales Automation</option>
+              <option>Customer Service</option>
+              <option>Finance &amp; Administration</option>
+              <option>HR &amp; Workforce</option>
+              <option>AI &amp; Intelligent Automation</option>
+              <option>System Integration</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="form-field"><label for="message">Tell us a little about it *</label><textarea id="message" name="message" rows="6" required placeholder="What process are you trying to improve?"></textarea></div>
+          <button class="btn btn-primary form-submit" type="submit"><span class="submit-text">Send Enquiry</span><span class="submit-arrow">→</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand footer-logo" href="index.html" aria-label="Papustivity Technologies home">
+        <img src="images/papustivity-logo.png" alt="Papustivity Technologies">
+      </a>
+      <p>Business Process Automation</p>
+      <p class="footer-copy">We turn complex business processes into simple, connected workflows.</p>
+    </div>
+
+    <div>
+      <h3>Company</h3>
+      <a href="about.html">About</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div>
+      <h3>Solutions</h3>
+      <a href="solutions.html#crm">CRM &amp; Sales</a>
+      <a href="solutions.html#service">Customer Service</a>
+      <a href="solutions.html#finance">Finance &amp; Admin</a>
+      <a href="solutions.html#ai">AI &amp; Automation</a>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>No. 26, Adeshiyan Street,<br>Ilupeju, Lagos.</p>
+      <a href="tel:07062631588">07062631588</a>
+      <a href="mailto:Info@papustivitytechnologies.com">Info@papustivitytechnologies.com</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Papustivity Technologies. All rights reserved.</span>
+    <span>Business Process Automation</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
