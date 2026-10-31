@@ -27,6 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
   if (year) year.textContent = new Date().getFullYear();
 
   const form = document.getElementById("contact-form");
+  const interestSelect = document.getElementById("interest");
+  const requestedInterest = new URLSearchParams(window.location.search).get("interest");
+  if (interestSelect && requestedInterest) {
+    const matchingOption = Array.from(interestSelect.options).find(option => option.value === requestedInterest || option.text === requestedInterest);
+    if (matchingOption) interestSelect.value = matchingOption.value || matchingOption.text;
+  }
   if (form) {
     const status = document.getElementById("form-status");
     const submit = form.querySelector("button[type='submit']");
